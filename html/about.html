@@ -24,7 +24,9 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Butterfly+Kids&family=Cinzel&family=Satisfy&family=Titillium+Web:wght@200&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Butterfly+Kids&family=Cinzel&family=Satisfy&family=Titillium+Web:wght@200&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -74,34 +76,63 @@
     <section class="container">
         <div class="mt-3">
             <h3 class="resume-title">Professional Experience</h3>
-            <div class="resume-item">
-              <h4>Senior graphic design specialist</h4>
-              <h5>2019 - Present</h5>
-              <p><em>Experion, New York, NY </em></p>
-              <ul>
-                <li>Development of user interface screens using HTML and JSP framework</li>
-                <li>Development of business components using OOP principles, Core java concepts, 
-                    Collections, Exception Handling, etc </li>
-                <li>Implemented a Message Driven Bean using Java Message Services API to deliver 
-                    the requirement of exchanging information within different system.</li>
-                <li>Worked on estimation and planning of technical migration like Struts 1 to Struts 2, 
-                    Oracle 11g to 12c.
-                </li>
-              </ul>
+            <div class="d-flex">
+                <div id="list-example" class="list-group">
+                    <a class="list-group-item list-group-item-action" href="#list-item-1">Cognizant Experience</a>
+                    <a class="list-group-item list-group-item-action" href="#list-item-2">Accenture Experience</a>
+                </div>
+                <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" class="scrollspy-example"
+                    tabindex="0">
+                    <h4 id="list-item-1">Senior Software Developer</h4>
+                    <h5>2019 - Present</h5>
+                    <p><em>Duration: Nov-2015 – Ongoing<br />
+                            Client: Swiss Leading Investment Bank<br />
+                            SDLC: Agile<br />
+                            Users: 80K+ <br />
+                            Infrastructure:
+                            Application Server: Weblogic 12.0 <br />
+                            Database: Oracle 12g <br />
+                            Build Tool: Maven <br />
+                            Documentation: Confluence <br />
+                        </em></p>
+                    <ul>
+                        <li>Development of user interface screens using HTML and JSP framework</li>
+                        <li>Development of business components using OOP principles, Core java concepts,
+                            Collections, Exception Handling, etc </li>
+                        <li>Implemented a Message Driven Bean using Java Message Services API to deliver
+                            the requirement of exchanging information within different system.</li>
+                        <li>Worked on estimation and planning of technical migration like Struts 1 to Struts 2,
+                            Oracle 11g to 12c.
+                        </li>
+                    </ul>
+
+                    <h4 id="list-item-2">Developer</h4>
+                    <h5>2012 - 2015</h5>
+                    <p><em>Duration: May 2012 – Oct 2015<br />
+                            Client: Finnish Pension Insurance Provider<br />
+                            Description: Tool that helps the client to provide appropriate<br />
+                            pension to the pension seekers.<br />
+                            SDLC: Waterfall<br />
+                            Users: 400<br />
+                            Infrastructure:
+                            Application Server: JBoss 5.0<br />
+                            Database: IBM DB2<br />
+                            Build Tool: Ant<br />
+                            Documentation: Sharepoint<br />
+                        </em></p>
+                    <ul>
+                        <li>Development of screens using XHTML and JSF framework</li>
+                        <li>Development of business components using OOP principles, Core java concepts,
+                            Collections, Exception Handling, etc</li>
+                        <li>Developed business components and configured as beans using Spring DI.</li>
+                        <li>Data Model changes using Hibernate and Java Persistence API</li>
+                    </ul>
+                </div>
             </div>
-            <div class="resume-item">
-              <h4>Graphic design specialist</h4>
-              <h5>2017 - 2018</h5>
-              <p><em>Stepping Stone Advertising, New York, NY</em></p>
-              <ul>
-                <li>Development of screens using XHTML and JSF framework</li>
-                <li>Development of business components using OOP principles, Core java concepts, 
-                    Collections, Exception Handling, etc</li>
-                <li>Developed business components and configured as beans using Spring DI.</li>
-                <li>Data Model changes using Hibernate and Java Persistence API</li>
-              </ul>
-            </div>
-          </div>
+        </div>
+
+
+
     </section>
     <div class="container-fluid">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
