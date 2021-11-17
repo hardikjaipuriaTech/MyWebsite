@@ -1,0 +1,12 @@
+
+@import "../bootstrap/scss/functions";
+
+@import "../bootstrap/scss/variables";
+@import "../bootstrap/scss/mixins";
+@import "../bootstrap/scss/root";
+
+
+$body-bg: rgb(10, 8, 124);
+$body-color:rgb(255, 253, 235);
+
+@import "../bootstrap/scss/bootstrap";
