@@ -1,1 +1,1 @@
-Load website at https://github.com/hardiksparkle/hardiksparkle.github.io
+Load website at https://hardiksparkle.github.io
